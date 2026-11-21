@@ -24,7 +24,7 @@ class WelcomeRequest(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "KT5 API is running",
+        "message": "KT6 API is running",
         "docs": "/docs",
         "graphql": "/graphql",
     }
