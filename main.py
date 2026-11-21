@@ -13,7 +13,7 @@ DATABASE_URL = os.getenv(
 )
 db_engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 
-app = FastAPI(title="KT5 — Продвинутые темы backend-разработки", version="1.0.0")
+app = FastAPI(title="KT6 — Продвинутые темы backend-разработки", version="1.0.0")
 
 
 class WelcomeRequest(BaseModel):
